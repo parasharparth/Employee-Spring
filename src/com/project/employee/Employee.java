@@ -1,5 +1,9 @@
 package com.project.employee;
 
+/******************************************************
+ * Bean or Model or POJO
+ * There is no business logic here
+ *******************************************************/
 public class Employee {
 
     public int employeeId;
@@ -10,6 +14,7 @@ public class Employee {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.employeeSalary = employeeSalary;
+        System.out.println("Checking the constructor calling");
     }
 
     public Employee() {
