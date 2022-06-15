@@ -14,10 +14,11 @@ public class Employee {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.employeeSalary = employeeSalary;
-        System.out.println("Checking the constructor calling");
     }
 
     public Employee() {
+        //This is being done to test the difference between BeansFactory and ApplicationContext
+        System.out.println("Employee object created");
     }
 
     public int getEmployeeId() {
